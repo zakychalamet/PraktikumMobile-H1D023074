@@ -7,8 +7,8 @@ android {
     namespace = "com.example.pemmob1"
     compileSdk = 36
 
-    viewBinding {
-        enable = true
+    buildFeatures {
+        viewBinding = true
     }
 
     defaultConfig {
@@ -50,5 +50,18 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    // Networking
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+
+    // Arch components
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6")
+    implementation("androidx.activity:activity-ktx:1.9.2")
+
+    // UI
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+
+    implementation("com.github.bumptech.glide:glide:5.0.5")
 }
 
