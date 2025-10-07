@@ -14,3 +14,6 @@ Shift Baru: D
 
 # Tugas3-Pertemuan4
 ![Image](https://github.com/user-attachments/assets/c4d31bbb-fca8-4da3-9f9f-58e3b08118e2)
+
+# Tugas4-Pertemuan5
+![Image](https://github.com/user-attachments/assets/26d3c67e-c187-43c0-baea-a61a2f171e50)
